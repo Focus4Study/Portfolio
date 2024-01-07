@@ -12,6 +12,7 @@ body {
     border-radius: 5px;
     background: #FD6E0A;
 }
+
 .section-tile {
     color: #181818;
     text-align: center;
@@ -98,10 +99,33 @@ nav a {
 }
 
 /*main section styles*/
+
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
 .about {
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 230px;
+    margin: 130px 0;
     padding: 100px;
 }
 
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
